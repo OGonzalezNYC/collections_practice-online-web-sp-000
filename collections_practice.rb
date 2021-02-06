@@ -81,7 +81,9 @@ end
 # end
 def kesha_maker(array)
   new_array.replace(array)
-  
+  new_array.map do |string|
+    string[2] = "$"
+  end
 end
 
 def find_a(array)
