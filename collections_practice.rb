@@ -53,12 +53,12 @@ end
 #   # new_array
 # end
 def swap_elements_from_to(array)
-#   new_array = []
-#   new_array.replace(array)
-#   new_array[1] = array[2]
-#   new_array[2] = array[1]
-#   new_array
-# end
+  new_array = []
+  new_array.replace(array)
+  new_array[1] = array[2]
+  new_array[2] = array[1]
+  new_array
+end
 #ADVANCED:
 # def swap_elements_from_to(array, index, destination_index)
 #   new_array = []
