@@ -53,7 +53,8 @@ end
 #   # new_array
 # end
 def swap_elements_from_to(array, index, destination_index)
-  new_array = array.clone 
+  new_array = []
+  new-array.replace(array)
   new_array[index] = array[destination_index]
   new[array[destination_index] = array[index]
 end
