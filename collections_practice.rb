@@ -66,14 +66,14 @@ def reverse_array(array)
 end 
 
 
-def kesha_maker(array)
-  new_array = []
-  array.each do |string|
-    string[2] = "$"
-    new_array << string
-  end
-  new_array
-end
+# def kesha_maker(array)
+#   new_array = []
+#   array.each do |string|
+#     string[2] = "$"
+#     new_array << string
+#   end
+#   new_array
+# end
 # def kesha_maker(array)
 #   array.map do |e|
 #     e[0..1] + "$" + e[3..e.size-1]
