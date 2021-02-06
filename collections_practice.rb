@@ -79,6 +79,9 @@ end
 #     e[0..1] + "$" + e[3..e.size-1]
 #   end
 # end
+def kesha_maker(array)
+  
+end
 
 def find_a(array)
   array.select do |word|
