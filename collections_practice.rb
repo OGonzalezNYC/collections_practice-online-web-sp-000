@@ -87,6 +87,7 @@ end
 #   end
 # end
 def kesha_maker(array)
+  new-array = []
   new_array.replace(array)
   new_array.map do |string|
     string[2] = "$"
