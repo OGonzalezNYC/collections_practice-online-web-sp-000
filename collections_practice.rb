@@ -92,6 +92,7 @@ def kesha_maker(array)
   new_array.map do |string|
     string[2] = "$"
   end
+  new_array
 end
 
 def find_a(array)
