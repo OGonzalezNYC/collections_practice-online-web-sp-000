@@ -80,7 +80,7 @@ end
 #   end
 # end
 def kesha_maker(array)
-  
+  new_array.replace(array)
 end
 
 def find_a(array)
