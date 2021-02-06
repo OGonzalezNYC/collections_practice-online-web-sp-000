@@ -52,7 +52,7 @@ end
 #   # end
 #   # new_array
 # end
-def swap_elements_from_to(array)
+def swap_elements(array)
   new_array = []
   new_array.replace(array)
   new_array[1] = array[2]
