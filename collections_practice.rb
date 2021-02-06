@@ -57,6 +57,7 @@ def swap_elements_from_to(array, index, destination_index)
   new_array.replace(array)
   new_array[index] = array[destination_index]
   new_array[destination_index] = array[index]
+  new_array
 end
 
 def reverse_array(array)
